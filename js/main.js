@@ -79,15 +79,18 @@ arrayAvatares.map(
                     }
                     if (player1 === player2) {
 
-                        console.log("No se puede elegil el mismo player. Vuelve a elegir uno")
+                        prompt("No se puede elegil el mismo player. Vuelve a elegir uno")
+                        location.reload();
                         player1 = NaN;
                         player2 = NaN;
+
                     }
+
+
+
                 }
-
                 while (player1 === player2)
-
-
+                
             }
         })
     }
