@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: crimson;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#up {
+
+    position: relative;
+
+}
+
+#down {
+
+    height: 20vh;
+    width: 100vw;
+    margin-top: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
+#containerUno {
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+}
+
+#containerDos {
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: rgb(15, 111, 207);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+#containerTres {
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: rgb(44, 153, 47);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cambioPantalla {
+    height: 5em;
+    width: 10em;
+    position: absolute;
+    border-radius: 1em;
+    cursor: pointer;
+}
+.cambioPantalla:hover{
+
+    background-color: cornsilk;
+}
+
+.magician {
+
+    height: 10em;
+    width: 10em;
+
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.magician img {
+    height: 10em;
+    width: 10em;
+}
+
+
+.prueba {
+    background-color: black;
+}
+#player11{
+    position: absolute;
+    color: white;
+    font-size: x-large;
+
+}
+#player21{
+    position: absolute;
+    color: white;
+    font-size: x-large;
+}
+#player12{
+    position: absolute;
+    color: white;
+    font-size: x-large;
+}
+#player22{
+    position: absolute;
+    color: white;
+    font-size: x-large;
+}
+#player13{
+    position: absolute;
+    color: white;
+    font-size: x-large;
+}
+#player23{
+    position: absolute;
+    color: white;
+    font-size: x-large;
+}
+#player14{
+    position: absolute;
+    color: white;
+    font-size: x-large;
+}
+#player24{
+    position: absolute;
+    color: white;
+    font-size: x-large;
+}
